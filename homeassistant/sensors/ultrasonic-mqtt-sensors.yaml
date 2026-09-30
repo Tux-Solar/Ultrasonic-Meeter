@@ -11,7 +11,7 @@
     model: Ultrasonic water meeter
     model_id: Ultrasonic-v60
   state_class: total_increasing
-  device_class: volume
+  device_class: water
   unit_of_measurement: L
   state_topic: ultrasonic/flow-net
   value_template: "{{ value_json.data | int }}"
